@@ -14,22 +14,24 @@
 
   * [Tests](#tests)
 
+  * [Contributing](#contributing)
+
   * [Questions](#questions)
   
   ## Description:
-  * Greeting the watcher of this video right now!
+  * Saying hello to the world and the person watching this right now :)
     
   ## License: 
   * None
     
   ## Instalation:
-  * clone or fork the repo
+  * clone my repo!
   
   ## Usage:
-  * instructions image is in the README.md file on this repo
+  * check the readme file that has image of instructions and running application
     
   ## Tests: 
-  * this right here is a good test! dynamically creating this readme
+  * this is testing the application
 
   ### Contributing: 
   * Link to user's GitHub: https://github.com/johndoe16
