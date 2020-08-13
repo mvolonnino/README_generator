@@ -4,7 +4,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require("./02-Homework/Develop/utils/generateMarkdown");
+const generateMarkdown = require("./generateMarkdown");
 
 // writeFileAsync to link init()
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -14,7 +14,7 @@ function promptUser() {
   return inquirer.prompt([
     {
       type: "input",
-      message: "What is the title of your project? ",
+      message: "What is the title of your project: ",
       name: "title",
     },
     {
@@ -23,9 +23,9 @@ function promptUser() {
       name: "description",
     },
     {
-      type: "checkbox",
+      type: "list",
       message: "Please select one of the following for license: ",
-      choices: ["Apache License 2.0", "MIT", "BSD 2 'simplified'", "None"],
+      choices: ["Apache", "ISC", "MIT", "None"],
       name: "license",
     },
     {
@@ -41,59 +41,23 @@ function promptUser() {
     {
       type: "input",
       message:
-        "List any of the collaborators, if any, with links to their GitHub profiles (including your own): ",
-      name: "contributing",
-    },
-    {
-      type: "input",
-      message:
         "Provide any examples for tests for your project or how to run them: ",
       name: "tests",
     },
     {
       type: "input",
       message:
-        "Any questions or concerns, please contact me with link to my GitHub ",
+        "List your GitHub username for contributing to this project! Just add your username and a link will appear for you in the readme file: ",
+      name: "contributing",
+    },
+    {
+      type: "input",
+      message:
+        "Any questions or concerns, please contact me at my linked URL and add your email here: ",
       name: "questions",
     },
   ]);
 }
-// function generate markdown
-// function generateReadMe(data) {
-//   return `
-//   # ${data.title}
-
-//   ## Table of Contents
-
-//   *[Description](#description)
-//   *[License](#license)
-//   *[Instalation](#instalation)
-//   *[Usage](#usage)
-//   *[Tests](#tests)
-//   *[Questions](#questions)
-
-//   ## Description:
-//     *${data.description}
-
-//   ## License:
-//     *${data.license}
-
-//   ## Instalation:
-//     *${data.instalation}
-
-//   ## Usage:
-//     *${data.usage}
-
-//   ## Contributing:
-//     *${data.contributing}
-
-//   ### Tests:
-//     *${data.tests}
-
-//   ### Questions:
-//     *${data.questions}
-//     `;
-// }
 
 // function to write README file
 promptUser()
@@ -110,8 +74,6 @@ promptUser()
   .catch(function (error) {
     console.log(error);
   });
-
-// function to initialize program
 
 // function call to initialize program
 // init();
