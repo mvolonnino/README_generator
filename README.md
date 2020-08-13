@@ -14,6 +14,8 @@
 
 - [Tests](#tests)
 
+- [Contributing](#contributing)
+
 - [Questions](#questions)
 
 ## Description:
