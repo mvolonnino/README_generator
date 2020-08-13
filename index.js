@@ -74,6 +74,3 @@ promptUser()
   .catch(function (error) {
     console.log(error);
   });
-
-// function call to initialize program
-// init();
