@@ -38,6 +38,8 @@ Open the project through your terminal and make sure the correct path is showing
 
 To run project, once in the correct path, enter 'node index.js'into terminal and hit enter - the program will execute and begin prompting you to create the readme file
 
+```check the asset => video folder to see a tutorial```
+
 ![image of instructions](./assets/Screen%20Shot%202020-08-12%20at%2010.29.54%20PM.png)
 
 ### Contributing:
