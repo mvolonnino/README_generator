@@ -39,11 +39,7 @@ To run project, once in the correct path, enter 'node index.js'into terminal and
 ![image of instructions](./assets/Screen%20Shot%202020-08-12%20at%2010.29.54%20PM.png)
 
 ### Contributing:
-
-- Link to user's GitHub: https://github.com/johndoe16
 - Link to creator's GitHub: https://github.com/mvolonnino
 
 ### Questions:
-
-- User's email: johndoe16@gmail.com
 - Contact me at my email: mvolonnino12@gmail.com
