@@ -66,10 +66,10 @@ promptUser()
 
     const readME = generateMarkdown(answers);
 
-    return writeFileAsync("README.md", readME);
+    return writeFileAsync("genREADME.md", readME);
   })
   .then(function () {
-    console.log("Succesfully created README.md");
+    console.log("Succesfully created genREADME.md");
   })
   .catch(function (error) {
     console.log(error);

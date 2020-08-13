@@ -1,39 +1,49 @@
-# README Generator 
-  
-  ![license badge](https://img.shields.io/static/v1?label=license&message=None&color=ff69b4)
+# ReadMe Generator
 
-  ## Table of Contents
-  
-  * [Description](#description)
+![license badge](https://img.shields.io/static/v1?label=license&message=None&color=ff69b4)
 
-  * [License](#license)
+## Table of Contents
 
-  * [Instalation](#instalation)
+- [Description](#description)
 
-  * [Usage](#usage)
+- [License](#license)
 
-  * [Tests](#tests)
+- [Instalation](#instalation)
 
-  * [Questions](#questions)
-  
-  ## Description:
-    This project prompts the user questions based on their application to create a README file
-    
-  ## License: 
+- [Usage](#usage)
+
+- [Tests](#tests)
+
+- [Questions](#questions)
+
+## Description:
+
+This application will dynamically create a readme file based on the users answers to the prompts
+
+## License:
+
     None
-    
-  ## Instalation:
-    Steps to install project would be clone or fork the repo, run node index.js in the correct path on terminal, you may need to 'npm install inquirer' or 'npm i' as well
-  
-  ## Usage:
-    To use the application you must run it using the terminal and node index.js to start the prompts
-    
-  ## Tests: 
-    EX in terminal with the correct path pulled up: 'node index.js' and hit eneter 
 
-  ### Contributing: 
-  * Link to GitHub: https://github.com/johndoe16
-  * Link to my GitHub: https://github.com/mvolonnino
-  ### Questions:
-  * Your email: johndoe16@gmail.com
-  * Contact me at my email: mvolonnino12@gmail.com
+## Instalation:
+
+To install the project, clone or fork this repo off GitHub to have access to the neccessary files to run program
+
+## Usage:
+
+Open the project through your terminal and make sure the correct path is showing. (ls should show you 'index.js' to run the program)
+
+## Tests:
+
+To run project, once in the correct path, enter 'node index.js'into terminal and hit enter - the program will execute and begin prompting you to create the readme file
+
+![image of instructions](./assets/Screen%20Shot%202020-08-12%20at%2010.29.54%20PM.png)
+
+### Contributing:
+
+- Link to user's GitHub: https://github.com/johndoe16
+- Link to creator's GitHub: https://github.com/mvolonnino
+
+### Questions:
+
+- User's email: johndoe16@gmail.com
+- Contact me at my email: mvolonnino12@gmail.com

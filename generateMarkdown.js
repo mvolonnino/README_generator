@@ -16,27 +16,28 @@ function generateMarkdown(data) {
 
   * [Tests](#tests)
 
+  * [Contributing](#contributing)
+
   * [Questions](#questions)
   
   ## Description:
-    ${data.description}
+  * ${data.description}
     
   ## License: 
-    ${data.license}
+  * ${data.license}
     
   ## Instalation:
-    ${data.instalation}
+  * ${data.instalation}
   
   ## Usage:
-    ${data.usage}
+  * ${data.usage}
     
   ## Tests: 
-    ${data.tests}
+  * ${data.tests}
 
   ### Contributing: 
   * Link to user's GitHub: https://github.com/${data.contributing}
   * Link to creator's GitHub: https://github.com/mvolonnino
-  
   ### Questions:
   * User's email: ${data.questions}
   * Contact me at my email: mvolonnino12@gmail.com
